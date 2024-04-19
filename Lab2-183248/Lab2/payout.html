@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Payment page</title>
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+<div class="container col-4">
+    <div>
+        <h1>Payment page</h1>
+    </div>
+    <hr>
+    <div class="progress" style="height: 23px; border-radius: 0%">
+        <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><b>Step 4: Payment</b></div>
+    </div>
+    <hr>
+
+    <div class="mb-3 mt-5">
+        <label class="form-label"><b>Name on Card</b></label>
+        <input class="form-control">
+    </div>
+    <div class="mb-3">
+        <label class="form-label"><b>Card Number</b></label>
+        <input class="form-control">
+    </div>
+    <div class="mb-3">
+        <label class="form-label"><b>Billing Address</b></label>
+        <input class="form-control">
+    </div>
+    <div class="form-row row mb-3">
+        <div class="col">
+            <label class="form-label"><b>CVC</b></label>
+            <input type="text" class="form-control" placeholder="ex. 311" required>
+        </div>
+        <div class="col">
+            <label class="form-label"><b>Expiration</b></label>
+            <input type="text" class="form-control" placeholder="MM" required>
+        </div>
+        <div class="col" style="margin-top: 32px;">
+            <input type="text" class="form-control" placeholder="YYYY" required>
+        </div>
+    </div>
+    <hr class="mt-5">
+
+    <div class="mt-5">
+        <div class="rounded d-flex align-items-center text-center" style="height: 45px; opacity: 0.5; background-color: green;">
+            <div class="container col-6 bg-white text-success fw-bold rounded-pill h-auto w-auto" style="background-color: white; color: rgba(0, 255, 0, 0.5)">
+                Your total today: $300
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-2">
+        <button class="btn btn-primary w-100">Pay &raquo</button>
+    </div>
+
+
+
+</div>
+</body>
+</html>
